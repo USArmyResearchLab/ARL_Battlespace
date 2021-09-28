@@ -39,7 +39,7 @@ This repo contains the source code to the wargame ARL Battlespace. The configura
 The two humans begin in the North quadrants, and the 2 AI players begin in the South quadrants. Each player has 3 ground units, 1 air unit, and a flag. The opposing forces are separated by a minefield with a gap. The humans should cooperate to breach the gap and destory the enemy forces or capture the flags. Units have limited visibility.
 
 
-1) Open 2 terminal windows. One will be the Server, and the other will be Client 1 (i.e. Player 1, a.k.a. 'Agent 2')
+1) Open 2 terminal windows. One will be the Server, and the other will be Client 1 (i.e. Player 1, a.k.a. 'Agent 2'). Open a 3rd terminal window either on this machine or on another machine.
 
 2) In terminal 1 ('Server'), navigate to the 'test' folder.
 
@@ -49,11 +49,13 @@ The two humans begin in the North quadrants, and the 2 AI players begin in the S
 4) If one or both clients are communicating with the server across a network, modify your server's router's Port Forwarding so that port 5050 is forwarded to your server's local IP address.
 
 5) In terminal 2 ('Client 1'), navigate to the 'test' folder.  Type:  python HumanInterface.py
-(Because terminal 2 is on the same machine as terminal 1): Hit <enter>.  It will automatically reach out to your server on the same machine.
+If terminal 2 is on the same machine as terminal 1:
+    If the Router is set up for Port Forwarding): Hit <enter>.  It will automatically reach out to your server on the same machine.
+    If the Router is not set up for Port Forwarding, type in your local IP address, then hit <enter>.
 
 6) In terminal 3 ('Client 2', a.k.a. 'Agent 3'), navigate to the 'test' folder. Type:  python HumanInterface.py
 <If terminal 3 is on a computer across the network>: Type the address of the server, i.e. 71.114.23.43.
-<If terminal 3 is on the same computer as the server>: Hit <enter>.
+<If terminal 3 is on the same computer as the server>: Hit <enter> (if Port Forwarding) or type in your local IP address and hit <enter> (not Port Forwarding).
 
 7) Player 1 (i.e. 'Agent 2') begins clicking on the yellow region to place units (3 ground, 1 air, 1 flag). Alert Player 2 to begin placing units.
 
