@@ -43,19 +43,19 @@ The two humans begin in the North quadrants, and the 2 AI players begin in the S
 
 2) In terminal 1 ('Server'), navigate to the 'test' folder.
 
-3) Start the server by typing: python ServerWithUI.py --test
+3) Start the server by typing: python ServerWithUI.py --test<BR>
 	Note your Server's external IP address (e.g. 71.114.23.43) and your server's local IP address (e.g. 192.168.1.13)
 
 4) If one or both clients are communicating with the server across a network, modify your server's router's Port Forwarding so that port 5050 is forwarded to your server's local IP address.
 
-5) In terminal 2 ('Client 1'), navigate to the 'test' folder.  Type:  python HumanInterface.py
-If terminal 2 is on the same machine as terminal 1:
-    If the Router is set up for Port Forwarding): Hit <enter>.  It will automatically reach out to your server on the same machine.
-    If the Router is not set up for Port Forwarding, type in your local IP address, then hit <enter>.
+5) In terminal 2 ('Client 1'), navigate to the 'test' folder.  Type:  python HumanInterface.py<BR>
+If terminal 2 is on the same machine as terminal 1:<BR>
+--   If the Router is set up for Port Forwarding): Hit [Enter].  It will automatically reach out to your server on the same machine.<BR>
+--   If the Router is not set up for Port Forwarding, type in your local IP address, then hit [Enter].
 
-6) In terminal 3 ('Client 2', a.k.a. 'Agent 3'), navigate to the 'test' folder. Type:  python HumanInterface.py
-<If terminal 3 is on a computer across the network>: Type the address of the server, i.e. 71.114.23.43.
-<If terminal 3 is on the same computer as the server>: Hit <enter> (if Port Forwarding) or type in your local IP address and hit <enter> (not Port Forwarding).
+6) In terminal 3 ('Client 2', a.k.a. 'Agent 3'), navigate to the 'test' folder. Type:  python HumanInterface.py<BR>
+-- If terminal 3 is on a computer across the network: Type the address of the server, i.e. 71.114.23.43.<BR>
+-- If terminal 3 is on the same computer as the server: Hit [Enter] (if Port Forwarding) or type in your local IP address and hit <enter> (not Port Forwarding).
 
 7) Player 1 (i.e. 'Agent 2') begins clicking on the yellow region to place units (3 ground, 1 air, 1 flag). Alert Player 2 to begin placing units.
 
