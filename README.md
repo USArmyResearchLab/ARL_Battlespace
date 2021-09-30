@@ -3,7 +3,7 @@ PROJECT NAME: ARL Battlespace
 PROJECT DESCRIPTION: A Python strategy game, similar to Axis and Allies, Battleship, and chess. It is a simple wargame with two teams of two players each, i.e. two humans versus two AIs. The purpose is to provide a flexible platform to develop novel AIs for command and control decision aids. The AIs in this game take random actions, either from a uniform distribution or from a human-derived distribution. The focus of this project is to modify the AIs based on reinforcement learning, and in particular to tackle multiplayer decision-making.
 
 
-Version number:  1.2   A text-based game with visualization
+Version number:  1.2   A text-based game with visualization<BR>
 System requirements: 	Python 3, conda install dill, pip install tk
 
 Copyright 2021 U.S. Army Research Laboratory:  
@@ -24,7 +24,7 @@ Credits: J. Zach Hare, B. Christopher Rinderspacher, Walter Peregrim, Sue E. Kas
 
 Due to COVID restrictions, and consistent with the ARL 20-119 Exemption Determination Letter, any game play with people outside your household (friends or co-workers) must be remote or via Teams (e.g. by telephone or an online app).
 
-Contact: Chou Hung (chou.p.hung.civ@mail.mil)
+Contact: Chou Hung (chou.p.hung.civ@army.mil)
 
 --
 
@@ -50,7 +50,7 @@ The two humans begin in the North quadrants, and the 2 AI players begin in the S
 
 5) In terminal 2 ('Client 1'), navigate to the 'test' folder.  Type:  python HumanInterface.py<BR>
 If terminal 2 is on the same machine as terminal 1:<BR>
---   If the Router is set up for Port Forwarding): Hit [Enter].  It will automatically reach out to your server on the same machine.<BR>
+--   If the Router is set up for Port Forwarding: Hit [Enter].  It will automatically reach out to your server on the same machine.<BR>
 --   If the Router is not set up for Port Forwarding, type in your local IP address, then hit [Enter].
 
 6) In terminal 3 ('Client 2', a.k.a. 'Agent 3'), navigate to the 'test' folder. Type:  python HumanInterface.py<BR>
@@ -65,7 +65,7 @@ If terminal 2 is on the same machine as terminal 1:<BR>
 
 10) Player 2 enters actions into the terminal
 
-11) Game ends when both enemy flags are captured, or all enemy ground units are destroyed.
+11) AIs plan their actions. All Player and AI actions are executed simultaneously and first round ends. Play continues. Game ends when both enemy flags are captured, or all enemy ground units are destroyed.
 
 
 CITATIONS:  
