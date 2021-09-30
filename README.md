@@ -24,7 +24,7 @@ Credits: J. Zach Hare, B. Christopher Rinderspacher, Walter Peregrim, Sue E. Kas
 
 Due to COVID restrictions, and consistent with the ARL 20-119 Exemption Determination Letter, any game play with people outside your household (friends or co-workers) must be remote or via Teams (e.g. by telephone or an online app).
 
-Contact: Chou Hung (chou.p.hung.civ@mail.mil)
+Contact: Chou Hung (chou.p.hung.civ@army.mil)
 
 --
 
