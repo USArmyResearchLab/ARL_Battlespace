@@ -32,8 +32,7 @@ This repo contains the source code to the wargame ARL Battlespace. The configura
 
 # Setting up
 1) Install Python (e.g. 3.7.9) and Anaconda (e.g. 4.9.2)
-2) conda install dill
-3) pip install tk
+2) conda install dill numpy Pillow
 
 # Running Two Humans vs. UniformRandomAgent AI, Capture-the-Flag game with Wall (minefield)
 The two humans begin in the North quadrants, and the 2 AI players begin in the South quadrants. Each player has 3 ground units, 1 air unit, and a flag. The opposing forces are separated by a minefield with a gap. The humans should cooperate to breach the gap and destory the enemy forces or capture the flags. Units have limited visibility.
